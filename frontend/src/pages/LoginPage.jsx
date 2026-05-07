@@ -40,7 +40,9 @@ function LoginPage() {
 );
     }
   };
-
+  <div className="bg-red-500 text-white p-10 text-3xl">
+  Tailwind Working
+</div>
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <form
