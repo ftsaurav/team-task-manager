@@ -7,16 +7,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-
-  server: {
-    host: '0.0.0.0'
-  },
-
-  preview: {
-    host: '0.0.0.0',
-    port: process.env.PORT || 8080,
-    allowedHosts: true
-  },
-
-  base: '/'
 })
