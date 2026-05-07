@@ -21,7 +21,8 @@ public class CorsConfig {
 
         config.setAllowedOrigins(
                 List.of(
-                        "http://localhost:5173"
+                        "http://localhost:5173",
+                        "https://desirable-serenity-production-c8bd.up.railway.app"
                 )
         );
 
