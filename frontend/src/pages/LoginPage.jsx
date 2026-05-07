@@ -40,49 +40,14 @@ function LoginPage() {
 );
     }
   };
-  <div className="bg-red-500 text-white p-10 text-3xl">
-  Tailwind Working
-</div>
+  
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <form
-        onSubmit={handleSubmit}
-        className="bg-white p-8 rounded-xl shadow-md w-[400px]"
-      >
-        <h1 className="text-3xl font-bold mb-6 text-center">Login</h1>
-
-
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter Email"
-          onChange={handleChange}
-          className="w-full border p-3 rounded mb-4"
-        />
-
-        <input
-          type="password"
-          name="password"
-          placeholder="Enter Password"
-          onChange={handleChange}
-          className="w-full border p-3 rounded mb-4"
-        />
-
-        <button className="w-full bg-black text-white p-3 rounded">
-          Login
-        </button>
-        <p className="text-center mt-4">
-          Don't have an account?
-          <span
-            onClick={() => navigate("/register")}
-            className="text-blue-500 cursor-pointer ml-1"
-          >
-            Register
-          </span>
-        </p>
-      </form>
+  <div className="min-h-screen bg-black flex items-center justify-center">
+    <div className="bg-red-500 text-white p-10 text-5xl rounded-xl">
+      Tailwind Working
     </div>
-  );
+  </div>
+)
 }
 
 export default LoginPage;
